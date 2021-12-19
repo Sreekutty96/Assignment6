@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+div{
+	
+	font-size: 20px;
+	text-align: center;
+    }
+    .initial{
+    	background-color: #333;
+    	height: 300px;
+		line-height: 40px;
+		padding-top: 100px;
+		color: #fff;
+		
+		}
+	img{
+		border-radius: 20px;
+	}
+
+    p{
+    	padding-bottom: 60px;
+    }
+    a{
+    	border: 1px solid #00f;
+    	text-decoration: none;
+    	border-radius: 10px;
+    	padding: 10px;
+    	font-size: 25px;
+    	color: #00f;
+
+
+    	 }
+  div a:hover{
+    	 	color: white;
+    	 	background-color: blue;
+    	 	
+    	 }
+    .second{
+    	display: flex;
+    	height: 400px;
+    	
+    }
+    .col1{
+    	
+    	background-color: #0D6EFD;
+    	padding-top: 100px;
+    	line-height: 40px;
+    	padding-right: 50px;
+    	padding-left: 50px;
+    }
+    .col2{
+    	
+    	background-color: #333;
+    	padding-top: 100px;
+    	line-height: 40px;
+    	padding-right: 50px;
+    	padding-left: 50px;
+    	color: #fff;
+    	
+    }
+    .row{
+    
+    	display: flex;
+    	background-color: #333;
+    	
+    }
+	.col{
+		border: solid;
+		border-radius: 8px;
+		background-color: #fff;
+		padding: 10px;
+		margin: 40px;
+		display: block;
+		text-align: center;
+
+	}
+	.first{
+		background-color: #fff;
+		height: 200px;
+		line-height: 40px;
+		padding-top: 50px;
+		padding-bottom: 30px;
+
+	}
+	h1,h2,h3{
+		padding-bottom: 30px;
+	}
+	.col img{
+		width: 300px;
+		height: 60vh;
+	}
+
+	@media only screen and (max-width: 576px) {
+	font-size: 10px;
+	text-align: center;
+    }
+        .initial{
+    	background-color: #333;
+    	height: 80vh;
+		line-height: 40px;
+		padding-top: 100px;
+		color: #fff;}
+			.first{
+		background-color: #fff;
+		height: 70vh;
+		line-height: 40px;
+		padding-top: 50px;
+		padding-bottom: 30px;}
+		.col img{
+		width: 50px;
+		height: 10vh;}
+		
+		    .second{
+    	display: block;
+    	height: 40vh;
+    	
+    }
+    .row{
+    
+    	display: block;
+    	background-color: #333;
+    	
+    }
+
+   div{
+	width: auto;
+	font-size: 15px;
+	text-align: center;
+    }
+    .col{
+		border: solid;
+		border-radius: 8px;
+		background-color: #fff;
+		padding: 10px;
+		margin: 20px;
+		display: block;
+		text-align: center;
+
+	}
+  }
